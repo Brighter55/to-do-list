@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.to-do-list {
+  font-size: 30px;
+}
+
+.input-button {
+  display: flex;
+}
+
+.input-bar {
+  width: 330px;
+  height: 30px;
+  flex: 3;
+}
+
+.add-button {
+  width: auto;
+  flex: 1;
+  font-size: 25px;
+}
+
+.buttons {
+  font-size: 20px;
+}
